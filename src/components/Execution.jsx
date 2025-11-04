@@ -28,20 +28,20 @@ const steps = [
 
 export default function Execution() {
   return (
-    <section id="execution" className="bg-black text-white">
+    <section id="execution" className="bg-white text-black">
       <div className="mx-auto max-w-6xl px-6 py-20">
         <div className="mb-10">
           <h2 className="font-manrope text-3xl sm:text-4xl font-semibold">How we execute</h2>
-          <p className="mt-2 text-zinc-400">End-to-end partnership from strategy to scale.</p>
+          <p className="mt-2 text-zinc-600">End-to-end partnership from strategy to scale.</p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {steps.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
-              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10">
-                <Icon className="h-5 w-5 text-white" />
+            <div key={title} className="rounded-2xl border border-black/10 bg-black/5 p-6">
+              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-black/10">
+                <Icon className="h-5 w-5 text-black" />
               </div>
               <h3 className="font-semibold">{title}</h3>
-              <p className="mt-2 text-sm text-zinc-300">{desc}</p>
+              <p className="mt-2 text-sm text-zinc-700">{desc}</p>
             </div>
           ))}
         </div>

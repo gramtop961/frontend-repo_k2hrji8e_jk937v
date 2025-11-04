@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <section className="relative min-h-[92vh] w-full bg-black text-white overflow-hidden">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode" style={{ width: '100%', height: '100%' }} />
-        {/* subtle gradient vignette to improve text contrast */}
+        <Spline scene="https://prod.spline.design/IWEIbUehLbfUBd3s/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        {/* Gradient vignette to improve text contrast without blocking interaction */}
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_60%_at_50%_40%,rgba(0,0,0,0)_0%,rgba(0,0,0,0.35)_55%,rgba(0,0,0,0.75)_100%)]" />
       </div>
 
